@@ -55,6 +55,21 @@ Or you can use Docker Compose with the following command from the source reposit
 `docker compose up`
 
 Check out the [CTFd docs](https://docs.ctfd.io/) for [deployment options](https://docs.ctfd.io/docs/deployment/installation) and the [Getting Started](https://docs.ctfd.io/tutorials/getting-started/) guide
+### Windows Users
+CTFd works great on Windows! Follow these steps:
+
+1. **Install Prerequisites**
+   - [Git for Windows](https://git-scm.com/download/win)
+   - [Python 3.11](https://python.org/downloads/windows/) (check "Add to PATH")
+   - [Docker Desktop](https://docker.com/products/docker-desktop) (optional)
+
+2. **Clone & Setup**
+   ```cmd
+   git clone https://github.com/CTFd/CTFd.git
+   cd CTFd
+   python -m venv venv
+   venv\Scripts\activate
+   pip install -r requirements.txt
 
 ## Live Demo
 
