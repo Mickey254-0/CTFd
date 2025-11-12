@@ -63,18 +63,33 @@ CTFd works great on Windows! Follow these steps:
    - [Python 3.11](https://python.org/downloads/windows/) (check "Add to PATH")
    - [Docker Desktop](https://docker.com/products/docker-desktop) (optional)
 
-2. **Clone & Setup**
+2. **Clone & Setup
    ```cmd
    git clone https://github.com/CTFd/CTFd.git
    cd CTFd
    python -m venv venv
    venv\Scripts\activate
    pip install -r requirements.txt
+### Quick Start with Docker (No Python Needed)
 
+Run CTFd in one command:
+
+```bash
+docker run -d -p 8000:8000 ctfd/ctfd
 ## Live Demo
 
 https://demo.ctfd.io/
+### How to Report a Bug
 
+1. Search existing [issues](https://github.com/CTFd/CTFd/issues)
+2. If not found, open a new issue with:
+   - CTFd version
+   - OS (e.g., Windows 11)
+   - Steps to reproduce
+   - Expected vs actual behavior
+   - Screenshots
+
+Template:
 ## Support
 
 To get basic support, you can join the [MajorLeagueCyber Community](https://community.majorleaguecyber.org/): [![MajorLeagueCyber Discourse](https://img.shields.io/discourse/status?server=https%3A%2F%2Fcommunity.majorleaguecyber.org%2F)](https://community.majorleaguecyber.org/)
